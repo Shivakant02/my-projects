@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+       
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    border:1px solid white ;
+    color: #edf1fd;
+       font-size: larger;
+    border-radius: 7px;
+    font-weight: 700;
+    width: fit-content;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fff;
+    color:#129b9b ;
+    border: 1px solid black;
+
+}
+header{
+    padding: 15px 0px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    font-weight: 700;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 700;
+}
+nav ul li:hover{
+text-decoration: underline;
+font-weight: 900;
+
+}
+.search-field{
+   display: flex;
+   gap: 30px;
+   border: 1px solid white;
+   
+}
+input{
+    padding: 4px 10px;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+.hero-left-section{
+    width: 60%;
+    padding: 0% 8%;
+    
+}
+ h1{
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+h1 span{
+    color: #129b9b;
+    background-color: #dfdfe0;
+    font-weight: 900;
+}
+.hero-left-section p{
+    font-weight: 500;
+    font-size: 30px;
+
+}
+p span{
+    font-size: 25px;
+    font-weight: 700;
+    color: #129b9b;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+   
+}
+.hero-right-section{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.right-btn{
+    display: flex;
+    align-items: center;
+   gap: 30px;
+   
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* margin-left: 40px; */
+}
+footer ul i{
+    font-size: 30px;
+    /* gap: 50px; */
+    color: black;
+}
+footer ul i:hover{
+    color: rgb(128, 23, 160);
+    
+    
+}
+
